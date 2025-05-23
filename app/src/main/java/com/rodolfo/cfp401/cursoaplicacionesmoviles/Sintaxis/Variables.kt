@@ -1,6 +1,4 @@
-package com.rodolfo.cfp401.cursoaplicacionesmoviles
-
-import com.google.android.material.transition.MaterialSharedAxis
+package com.rodolfo.cfp401.cursoaplicacionesmoviles.Sintaxis
 
 fun main(){
   println ("Hola mundo")

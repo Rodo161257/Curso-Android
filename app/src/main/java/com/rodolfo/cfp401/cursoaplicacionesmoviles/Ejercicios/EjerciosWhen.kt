@@ -1,4 +1,4 @@
-package com.rodolfo.cfp401.cursoaplicacionesmoviles
+package com.rodolfo.cfp401.cursoaplicacionesmoviles.Ejercicios
 
 /*fun main(){
     clasificarEdad(8)
@@ -31,7 +31,7 @@ fun clasificarEdadIf(edad:Int){
 // Ejercicio 2: dado un número del 1 al 7 devolver el nombre del día
 
 fun main(){
-    nombreDelDia(8)
+    nombreDelDia(9)
 }
 fun nombreDelDia(numero: Int){
     when(numero){

@@ -1,4 +1,4 @@
-package com.rodolfo.cfp401.cursoaplicacionesmoviles
+package com.rodolfo.cfp401.cursoaplicacionesmoviles.Sintaxis
 
 /*
 Una función es una caja negra que realiza una acción y nos devuelve o no, un resultado.

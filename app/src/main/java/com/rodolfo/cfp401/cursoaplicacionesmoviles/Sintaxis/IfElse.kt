@@ -1,6 +1,4 @@
-package com.rodolfo.cfp401.cursoaplicacionesmoviles
-
-import kotlin.math.sin
+package com.rodolfo.cfp401.cursoaplicacionesmoviles.Sintaxis
 
 fun esMayorDeEdad(): String{
     var edad: Int = readln().toInt()

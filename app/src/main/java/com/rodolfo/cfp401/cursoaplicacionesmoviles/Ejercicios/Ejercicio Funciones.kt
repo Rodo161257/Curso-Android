@@ -1,4 +1,4 @@
-package com.rodolfo.cfp401.cursoaplicacionesmoviles
+package com.rodolfo.cfp401.cursoaplicacionesmoviles.Ejercicios
 
 fun areaRectangulo(base: Double, altura: Double): Double{
     return base * altura
