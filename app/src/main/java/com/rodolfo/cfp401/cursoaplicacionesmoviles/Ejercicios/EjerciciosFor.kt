@@ -27,7 +27,14 @@ fun ejercicio9(){
     }
     println("Felicitaciones ganaste")
 }
-
+fun ejercicio10(){
+    var numero = 10
+    while(numero>=0){
+        println(numero)
+        numero--
+    }
+    println("Despegue!!!!")
+}
 fun main(){
-    ejercicio9()
+    ejercicio10()
 }
