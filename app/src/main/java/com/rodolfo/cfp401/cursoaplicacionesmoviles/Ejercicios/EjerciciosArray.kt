@@ -22,17 +22,25 @@ fun ejercicioArray20(){
 
 }
 fun ejercicioArray3(){
-    val numeros = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+    val numeros = intArrayOf(1, 21, 3, 48, 5, 16, 7, 8, 9, 10, 55, 12)
     val maximo = numeros.maxOrNull()
     val minimo = numeros.minOrNull()
     println("El valor máximo es: $maximo")
     println("El valor mínimo es: $minimo")
 }
-
-
-
+fun ejercicioArray30(){
+    val numeros: Array<Int> = arrayOf(5, 2, 3, 24, 55, 1, 35, -3, 33, 3, 2, 1)
+    var minimo: Int = Int.MAX_VALUE
+    var maximo: Int = Int.MIN_VALUE
+    for(num in numeros){
+        if(num<minimo) minimo = num
+        if(num>maximo) maximo = num
+    }
+    println("El valor máximo es: $maximo")
+    println("El valor mínimo es: $minimo")
+}
 
 
 fun main (){
-    ejercicioArray2()
+    ejercicioArray30()
 }
