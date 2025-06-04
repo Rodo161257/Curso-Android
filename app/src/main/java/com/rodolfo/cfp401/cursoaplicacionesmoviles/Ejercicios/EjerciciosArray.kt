@@ -39,7 +39,7 @@ fun ejercicioArray30(){
     }
     println("El valor máximo es: $maximo")
     println("El valor mínimo es: $minimo")
-}2
+}
 
 
 
