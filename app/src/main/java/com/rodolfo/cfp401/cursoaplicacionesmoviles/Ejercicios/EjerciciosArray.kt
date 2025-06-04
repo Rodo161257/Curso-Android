@@ -26,6 +26,7 @@ fun ejercicioArray3(){
     val maximo = numeros.maxOrNull()
     val minimo = numeros.minOrNull()
     println("El valor máximo es: $maximo")
+
     println("El valor mínimo es: $minimo")
 }
 fun ejercicioArray30(){
@@ -38,9 +39,17 @@ fun ejercicioArray30(){
     }
     println("El valor máximo es: $maximo")
     println("El valor mínimo es: $minimo")
-}
+}2
+
+
 
 
 fun main (){
     ejercicioArray30()
 }
+
+
+
+
+
+
