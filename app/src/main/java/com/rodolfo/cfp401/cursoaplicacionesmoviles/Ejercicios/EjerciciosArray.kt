@@ -41,9 +41,6 @@ fun ejercicioArray30(){
     println("El valor mínimo es: $minimo")
 }
 
-
-
-
 fun main (){
     ejercicioArray30()
 }
