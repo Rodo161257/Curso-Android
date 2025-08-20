@@ -83,7 +83,7 @@ fun ejercicio8(){
     val firstUserOperatingSystem = "Linux"
     // The following line of code assumes that you named your parameter as emailId.
     // If you named it differently, feel free to update the name.
-    println(displayAlertMessage(emailId = firstUserEmailId, System = firtsUserOperatingSystem))
+    println(displayAlertMessage(emailId = firstUserEmailId))
     println()
 
     val secondUserOperatingSystem = "Windows"
