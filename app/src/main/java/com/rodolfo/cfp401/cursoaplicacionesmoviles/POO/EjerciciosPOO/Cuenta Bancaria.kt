@@ -6,7 +6,7 @@ class CuentaBancaria(val titular: String) {
 
     fun depositar(cantidad: Float) {
         println("$titular depositó $ $cantidad ")
-    
+    }
 
     fun extraer(cantidad: Float) {
         println("$titular extrajo $ $cantidad ")
