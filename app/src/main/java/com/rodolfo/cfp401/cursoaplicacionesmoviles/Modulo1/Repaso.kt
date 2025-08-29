@@ -13,4 +13,3 @@ fun main() {
     // val promedio = suma/3
     println("Promedio de notas (${promedio(10,5, 7)})")
 }*/
-class Per
