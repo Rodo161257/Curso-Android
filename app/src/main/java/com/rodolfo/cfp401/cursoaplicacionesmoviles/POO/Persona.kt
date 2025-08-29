@@ -1,15 +1,9 @@
 package com.rodolfo.cfp401.cursoaplicacionesmoviles.POO
 
-class Persona {
-    var nombre = ""
-    var edad = 25
-    var altura = 1.8f
+import com.rodolfo.cfp401.cursoaplicacionesmoviles.Ejercicios.nombreDelDia
 
-    fun saludar(){
+abstract class Persona(val nombre: String)
 
-    }
-    fun cumplirAños(){
-
-    }
-
+  fun presentarse(){
+    println("Hola soy ")
 }
