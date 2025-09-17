@@ -32,12 +32,18 @@ class Bebida(val jugoFrio: Float,
         println("Servicio: $servicio, Pago: $pago")
         println("El costo de las bebidas es $$costo")
     }
+    fun calcularDescuento(){
+        if(cantcafeFrio>0)
+            println("Café frio tiene descuento del 10%")
+    }
 }
 fun main() {
     val comida = Comida(100f, 1, 200f, 1, "local", "pendiente")
     comida.costoComida()
     val bebida = Bebida(150f, 1, 200f, 1, 100f, 1, "local", "pendiente")
     bebida.costoBebida()
+    bebida.calcularDescuento()
+    comida.costoComida()
 
 }
 
