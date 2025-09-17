@@ -38,8 +38,8 @@ class Bebida(val jugoFrio: Float,
     fun calcularDescuento(){
         if(cantcafeFrio>0)
             println("Café frio tiene descuento del 10%")
-        if (pago > 0f) println("El servicio tiene un pago")
-       // if(pago>costoBebida()) println("El pago es superior al costo de la bebida")
+        if (pago > 0f) println("El servicio tiene un pago de $$pago")
+
 
     }
 }
