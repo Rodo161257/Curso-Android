@@ -1,7 +1,7 @@
 package com.rodolfo.cfp401.cursoaplicacionesmoviles.POO.EjercicioClases
 
 data class Libro(val titulo: String, val autor: String, val año: Int)
-
+/*
 fun main(){
     val libro1 = Libro(
         "HarryPotter",
@@ -12,3 +12,4 @@ fun main(){
         libro1.copy(año= 2025)
 
 }
+*/
