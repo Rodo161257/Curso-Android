@@ -49,9 +49,7 @@ fun main() {
     val bebida = Bebida(150f, 1, 200f, 1, 100f, 1, "local", 100f)
     bebida.costoBebida()
     bebida.calcularDescuento()
-    println("Costo total: ${bebida.costoBebida() + comida.costoComida()}")
-
+    println("Costo Total bebida + comida = ${bebida.costoBebida() + comida.costoComida()}")
 
 }
-
 
