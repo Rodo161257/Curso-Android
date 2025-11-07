@@ -1,5 +1,6 @@
 package com.rodolfo.cfp401.cursoaplicacionesmoviles
 
+import androidx.compose.runtime.Composable
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
 
@@ -22,3 +23,5 @@ class ExampleInstrumentedTest {
         assertEquals("com.rodolfo.cfp401.cursoaplicacionesmoviles", appContext.packageName)
     }
 }
+
+@Composable
